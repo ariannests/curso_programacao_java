@@ -1,6 +1,7 @@
 package aula6.exemploHeranca.equipamento;
 
 public class Eletronico extends Equipamento {
+	
 
 	public Eletronico(double preco, String fabricante){
 		super(preco, fabricante);
