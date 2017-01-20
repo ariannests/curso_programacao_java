@@ -26,7 +26,7 @@ public class InterfaceProduto {
 				System.out.println("Nome: ");
 				produto.setNome(scanner.nextLine());
 				
-				System.out.println("Preço: ");
+				System.out.println("Preco: ");
 				produto.setPreco(scanner.nextDouble());
 				
 				System.out.println("Quantidade: ");
@@ -51,7 +51,7 @@ public class InterfaceProduto {
 					System.out.println("Venda finalizada!");
 				}
 				else if (produtos.vender(codigo, quantidade) == 2){
-					System.out.println("Quantidade indisponível!");
+					System.out.println("Quantidade indisponivel!");
 				}
 				else if (produtos.vender(codigo, quantidade) == 0){
 					System.out.println("Produto nao encontrado!");

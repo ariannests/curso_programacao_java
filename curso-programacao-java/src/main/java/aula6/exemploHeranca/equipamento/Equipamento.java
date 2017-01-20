@@ -24,7 +24,11 @@ public class Equipamento {
 	public void setPreco(double preco) {
 		this.preco = preco;
 	}
-	
+	/**
+	 * Matodo que calcula o preco final de um equipamento
+	 * 
+	 * @return Retorna o preco final do equipamento acrescido do imposto caso necessario
+	 */
 	public double calcularPrecoFinal(){
 		return preco;
 	}

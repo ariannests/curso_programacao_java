@@ -5,9 +5,10 @@ import java.text.SimpleDateFormat;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
+
 import java.util.Set;
 
-import javax.swing.RowFilter.Entry;
 
 public class ExemploMapPessoas {
 	public static void main(String[] args) throws ParseException {
